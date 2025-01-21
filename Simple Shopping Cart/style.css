@@ -1,0 +1,80 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  color: white;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #101010;
+}
+
+.container {
+  background-color: #1b1b1b;
+  padding: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 0.5rem;
+  border-radius: 2rem;
+  box-shadow: 0 4px 8px rgba(167, 162, 8, 01);
+}
+
+.main-heading {
+  text-transform: uppercase;
+  font-size: 3rem;
+  text-align: center;
+}
+
+
+.add {
+  display: flex;
+  flex-direction: column;
+  /* border: 1px solid white; */
+  /* width: 50%; */
+  justify-content: center;
+  align-items: center;
+  /* margin: rem 0rem; */
+  /* padding: 1rem; */
+  gap: 0.5rem;
+}
+
+.add-input {
+  color: black;
+  font-weight: lighter;
+  padding: 0.8rem 0rem;
+  border-radius: 1rem;
+  background-color: rgba(128, 128, 128, 0.586);
+  border: none;
+  outline: none;
+}
+
+.list-btn {
+  background-color: chocolate;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  width: fit-content;
+
+}
+
+.products {
+  margin-top: 2.5rem;
+  /* border: 1px solid white; */
+  width: 70%;
+}
+
+.list-heading {
+  display: block;
+  text-align: center;
+  font-size: large;
+  font-weight: bolder;
+  text-transform: uppercase;
+
+}
