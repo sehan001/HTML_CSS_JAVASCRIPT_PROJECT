@@ -1,7 +1,8 @@
 document.addEventListener("DOMContentLoaded", () => {
   const cityinput = document.getElementById("cityInput");
   const button = document.getElementById("btn");
-  const API_KEY = "acd99c046f5152373a8e952421cd8681";
+  const API_KEY = "";
+  // acd99c046f5152373a8e952421cd8681
   const info = document.getElementById("info");
   const displayerror = document.getElementById("error");
   const cityName = document.getElementById("name");
