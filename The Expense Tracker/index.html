@@ -4,26 +4,66 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Expense tracker</title>
+  <title>Expense Tracker</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+      padding: 0;
+      text-align: center;
+    }
+
+    .container {
+      max-width: 400px;
+      margin: auto;
+      padding: 20px;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    ul {
+      list-style-type: none;
+      padding: 0;
+    }
+
+    li {
+      display: flex;
+      justify-content: space-between;
+      padding: 8px;
+      border-bottom: 1px solid #ddd;
+    }
+
+    button {
+      background-color: red;
+      color: white;
+      border: none;
+      padding: 5px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: darkred;
+    }
+  </style>
 </head>
 
 <body>
   <div class="container">
-    <h1>expense tracker</h1>
+    <h1>Expense Tracker</h1>
     <form id="expense-form">
       <input type="text" id="expense-name" placeholder="Expense Name" required>
       <input type="number" id="expense-amount" placeholder="Expense Amount" required step="0.5">
+      <button type="submit">Add Expense</button>
     </form>
     <h2>Expense List</h2>
-    <ul id="expense-list">
-
-    </ul>
+    <ul id="expense-list"></ul>
     <div id="total">
-      <h3>Total:$<span id="total-amount">0.00</span></h3>
+      <h3>Total: $<span id="total-amount">0.00</span></h3>
     </div>
   </div>
-  <script src="./index.js"></script>
 
+  <script src="./index.js"></script>
 </body>
 
 </html>

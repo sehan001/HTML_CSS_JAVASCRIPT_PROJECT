@@ -1,0 +1,15 @@
+document --> referes to the html document
+
+.addEventListener(); --> referes to the event
+
+document.addEventListener("DOMContentLoaded", () => {}); --> the event for the document loaded properly in screen
+
+const expenseNameinput = document.getElementById("expense-name"); -->reference through id
+
+e.preventDefault(); --> prevents the default property of the element
+
+const expenseName = expenseNameinput.value.trim(); --> trim the empty spaces before and after the string
+
+const expenseAmount = parseFloat(expenseAmountinput.value); --> the parse float change the type into the float value
+
+
